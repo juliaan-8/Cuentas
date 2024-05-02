@@ -17,7 +17,7 @@ public class OperacionController {
     public String sumar (@RequestParam float a, @RequestParam float b)
     {
         String resultado= Float.toString(a+b);
-        return clienteRest.getForObject("https://resultados-2ahh.onrender.com/resultado/"+resultado, String.class);
+        return clienteRest.getForObject("https://resultaditos.onrender.com/"+resultado, String.class);
     }
     @GetMapping("/restar")
     public String resta (@RequestParam Float a, @RequestParam Float b)
