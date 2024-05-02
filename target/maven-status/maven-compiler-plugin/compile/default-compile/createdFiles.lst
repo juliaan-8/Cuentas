@@ -1,0 +1,4 @@
+com\example\Cuentas\RestTemplateCongif.class
+com\example\Cuentas\clientes\ResultadoClienteRest.class
+com\example\Cuentas\CuentasApplication.class
+com\example\Cuentas\controllers\OperacionController.class
